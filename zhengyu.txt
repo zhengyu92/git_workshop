@@ -1,20 +1,45 @@
 git init
-	Initialises new respository
+	Initializes new respository
+	
+git branch
+	View the current working branch and all branches
+	
+git checkout *branch name*
+	Switch to *branch name*
 
-git add
-	_____
+git checkout -b *new branch*
+	Create new branch
 
-git commit
-	_____
+git branch -d *branch name*
+	Delete branch
 
-git log
-	_____
+git add filename.filetype
+	Move the files to Staging Area
+	(-A) moves all the files to Staging Area
+	
+git add .
+	stages new and modifiied, without deleted
 
+git commit -m "String"
+	Move all the files in Staging Area to repository
+	(-m) to leave a commit message
+
+git log (--oneline)
+	to see all your commits
+	() see all your commits in one line
+	
 git status
-	_____
+	To view files in the staging area
 
 git diff
-	_____
+	View the differences/changes between Working Directory and Staging Area
 
 git clone
-	_____
+	create a local copy of the remote repository in your computer
+	
+*** Arguments ***
+-A: all
+	. 	stages new and modifiied, without deleted
+	-u	stages modified and deleted, without new
+-m: message
+--oneline: output in one line
