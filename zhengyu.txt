@@ -12,6 +12,9 @@ git checkout -b *new branch*
 
 git branch -d *branch name*
 	Delete branch
+	
+git branch -v -a
+	to see all available branches
 
 git add filename.filetype
 	Move the files to Staging Area
@@ -36,6 +39,12 @@ git diff
 
 git clone
 	create a local copy of the remote repository in your computer
+	
+git fetch *remote branch*
+	fetch remote branch
+	
+git checkout -b *remote branch* origin/*remote branch*
+	
 	
 *** Arguments ***
 -A: all
